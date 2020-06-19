@@ -37,9 +37,10 @@ def Intcode(data_arg, noun, verb):
         u_index += 4
     return data[0]
 
-print(Intcode(data_src,12,2))
+p1_ans = Intcode(data_src,12,2)
+print("P1: {}".format(p1_ans))
 
 for i in range(100):
     for j in range(100):
         if(Intcode(data_src, i,j) == 19690720):
-            print("({},{}: {})".format(i,j,100*i+j))
+            print("P2: ({},{}: {})".format(i,j,100*i+j))
