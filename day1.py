@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 
 def compute_fuel(val):
     return (int(val / 3)) - 2
