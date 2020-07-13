@@ -26,10 +26,10 @@ for line in f:
     fuel_sum += compute_fuel(int(line))
     fuel_sum_ext += compute_fuel_ext(int(line))
 
-print("count: {}".format(count))
-print("sum: {}".format(sum))
-print("fuel_sum: {}".format(fuel_sum))
-print("fuel_sum_ext: {}".format(fuel_sum_ext))
-#  print("fuel_sum_ext: {}".format(compute_fuel_ext(14)))
+print(f"count: {count}")
+print(f"sum: {sum}")
+print(f"fuel_sum: {fuel_sum}")
+print(f"fuel_sum_ext: {fuel_sum_ext}")
+print(f"fuel_sum_ext: {compute_fuel_ext(14)}")
 #  print("fuel_sum_ext: {}".format(compute_fuel_ext(1969)))
 
